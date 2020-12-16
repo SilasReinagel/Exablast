@@ -1,11 +1,11 @@
 
 const site = ({
-  name: 'Exablast Web Design',
-  siteOwner: 'Exablast Web Design',
-  owner: 'Exablast Web Design',
-  slogan: 'Handcrafted blazingly fast websites to increase your online presence and skyrocket your revenue',
-  heroHeader: 'Handcrafted, Blazingly Fast Websites For Indie Game Developers',
-  heroSubheader: 'We are a Web Design agency specialized in Game Marketing and Organic Website discovery',
+  name: 'eXablast Web Design',
+  siteOwner: 'eXablast Web Design',
+  owner: 'eXablast Web Design',
+  slogan: 'We create blazingly fast websites to increase your online presence and skyrocket your revenue',
+  heroHeader: 'We Create Blazingly Fast Websites That Convert',
+  heroSubheader: 'Design. Create. Evolve.',
   email: 'contact@exablast.com',
   logo: './images/logo.png',
   logoMobile: './images/logo-small.png',

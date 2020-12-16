@@ -1,21 +1,24 @@
 <script>
   export let company;
 
+  import Container from '../Elements/Container.svelte';
   import SingleColorSocialLinks from '../Elements/SingleColorSocialLinks.svelte';
 
   const year = new Date().getFullYear();
 </script>
 
 <footer class="darken">
-  <p>© {year} {company.siteOwner}</p>
+  <Container>
+    <div class = "row">
+      <p>© {year} {company.siteOwner}</p>
 
-  <SingleColorSocialLinks/>
-
-  <p class="small-text">Website by: <a href="http://www.silasreinagel.com" class="small-text">Silas Reinagel</a></p>
+      <SingleColorSocialLinks/>
+    </div>
+  </Container>
 </footer>
 
 <style>
-  footer {
+  .row {
     padding: 12px 18px;
     height: 5em;
     display: flex;

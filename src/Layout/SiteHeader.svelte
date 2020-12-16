@@ -52,14 +52,15 @@
     height: 60px;
     color: var(--primary-color);
     padding: 0 0.8em;
+    font-family: 'Header', 'Times New Roman', Times, serif;
   }
 
   a:hover {
-    background-color: #355574;
+    background-color: #dedede;
   }
 
   a:active {
-    background-color: #78b8f3;
+    background-color: #878787;
   }
 
   a img {

@@ -5,9 +5,11 @@
 	import AboutUsMinimal from '../Sections/AboutUsMinimal.svelte';
 	import Clients from '../Sections/Clients.svelte';
 	import ProjectContactPitch from '../Sections/ProjectContactPitch.svelte';
+	import ProjectSlider from '../Sections/ProjectSlider.svelte';
 </script>
 
 <Hero/>
+<ProjectSlider/>
 
 <section class="alt-bg">
 	<WhatWeDo/>
@@ -40,7 +42,7 @@
 	}
 
 	.alt-bg {
-		background-color: #fff;
+		background-color: #fbf7f3;
 		width: 100%;
 	}
 </style>

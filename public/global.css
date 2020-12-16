@@ -3,13 +3,14 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 /* Site Theme */
 :root {
-  --primary-color: #fff;
+  --primary-color: #1f0045;
   --primary-color-light: #dedede;
   --primary-color-hover: #acacac;
-  --primary-background-color: #1f0045;
-  --secondary-color: #20d9f9;
-  --secondary-color-hover: #2272a7;
-  --secondary-color-press: #231057;
+  --primary-background-color: #fff;
+  --secondary-color: #1f0045;
+  --secondary-color-hover: #2f0067;
+  --secondary-color-press: #4f0098;
+  --secondary-color-text: #fff;
   --alternate-color:#00dce8;
   --alternate-background-color: #17111a;
   --alternate-color-light:#00dce8;
@@ -35,6 +36,9 @@ html {
   background-position: center;
   background-repeat: repeat-y;
   background-size: 100% auto;
+
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans,
+    sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media screen and (max-width: 600px) {
@@ -44,23 +48,23 @@ html {
 
 html, body, a  {
   font-size: 18px;
-  font-family: 'Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   color: var(--primary-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Header', 'Times New Roman', Times, serif;
+  /* font-family: 'Header', 'Times New Roman', Times, serif; */
   color: var(--primary-color);
   letter-spacing: 0.05em;
 }
 
 .decor-font {
-  font-family: 'Header', 'Times New Roman', Times, serif;
+  /* font-family: 'Header', 'Times New Roman', Times, serif; */
   letter-spacing: 0.05em;
 }
 
 .sans-font {
-  font-family: 'Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .bg-gradient {
