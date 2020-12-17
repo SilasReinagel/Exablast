@@ -1,6 +1,7 @@
 <script>
 	import Hero from '../Sections/Hero.svelte';
 	import WhatWeDo from '../Sections/WhatWeDo.svelte';
+	import ServicesSummary from '../Sections/ServicesSummary.svelte';
 	import WorkExample from '../Sections/WorkExample.svelte';
 	import AboutUsMinimal from '../Sections/AboutUsMinimal.svelte';
 	import Clients from '../Sections/Clients.svelte';
@@ -11,8 +12,8 @@
 <Hero/>
 <ProjectSlider/>
 
-<section class="alt-bg">
-	<WhatWeDo/>
+<section class="">
+	<ServicesSummary/>
 </section>
 
 <section>

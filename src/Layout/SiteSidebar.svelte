@@ -10,7 +10,7 @@
 <aside class="border-r-2 shadow-lg" class:open>
   <nav class="navbar">
     <div class="align-right">
-      <a href="." class="home"><h1>{company.name}</h1></a>
+      <a href="." class="home"><h1>{company.shortName}</h1></a>
       <HamburgerIcon bind:open/>
     </div>
     {#each pages as page}

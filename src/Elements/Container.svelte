@@ -8,7 +8,7 @@
 
 <style>
   div {
-    max-width: 64em;
+    max-width: 72em;
     margin: 0 auto;
   }
  </style>

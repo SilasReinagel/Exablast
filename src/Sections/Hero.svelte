@@ -44,4 +44,15 @@
     font-size: 1.4em;
     font-weight: 600;
   }
+
+  
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .mt4 {
+    margin-top: 0;
+  }
+}
 </style>

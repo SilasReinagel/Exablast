@@ -1,6 +1,7 @@
 
 const site = ({
   name: 'eXablast Web Design',
+  shortName: 'eXablast',
   siteOwner: 'eXablast Web Design',
   owner: 'eXablast Web Design',
   slogan: 'We create blazingly fast websites to increase your online presence and skyrocket your revenue',
