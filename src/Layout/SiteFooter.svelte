@@ -28,6 +28,10 @@
     align-items: center;
   }
 
+  p {
+    color: var(--alternate-color);
+  }
+
   a {
     font-size: 1em;
   }

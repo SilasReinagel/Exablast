@@ -1,4 +1,6 @@
 
+const testimonial = (name, company, avatarSrc, text) => ({ name, company, text, avatarSrc });
+
 const site = ({
   name: 'eXablast Web Design',
   shortName: 'eXablast',
@@ -16,7 +18,22 @@ const site = ({
   social: {
   },
   screenshots: [
+  ],
+  testimonials: [
+    testimonial(
+      'Aikon',
+      'Cursed Gem',
+      '/images/testimonials/cursed-gem-avatar.jpg',
+      'It was very easy to work with them. Fast and professional work.<br><br>An amazing experience that I recommend to anyone.'),
+    testimonial(
+      'Margaretta Colangelo',
+      'MCI Investments',
+      '/images/testimonials/margaretta-colangelo-avatar.jpg',
+      'Thank you SOOOOO much. I love the new design!!!!<br><br>It looks fantastic!! Thank you SO much!! I love it!!'
+    )
   ]
 });
+
+
 
 export default site;

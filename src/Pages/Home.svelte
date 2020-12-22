@@ -1,4 +1,6 @@
 <script>
+	import data from '../static-content.js';
+
 	import Hero from '../Sections/Hero.svelte';
 	import WhatWeDo from '../Sections/WhatWeDo.svelte';
 	import ServicesSummary from '../Sections/ServicesSummary.svelte';
@@ -7,29 +9,15 @@
 	import Clients from '../Sections/Clients.svelte';
 	import ProjectContactPitch from '../Sections/ProjectContactPitch.svelte';
 	import ProjectSlider from '../Sections/ProjectSlider.svelte';
+	import Testimonials from '../Sections/Testimonials.svelte';
 </script>
 
 <Hero/>
 <ProjectSlider/>
+<ServicesSummary/>
 
-<section class="">
-	<ServicesSummary/>
-</section>
-
-<section>
-	<WorkExample/>
-</section>
-
-<section class="alt-bg">
-	<AboutUsMinimal/>
-</section>
-
-<section>
-	<Clients/>
-</section>
-
-<section class="alt-bg">
-	<ProjectContactPitch/>
+<section class="alt-bg mt4">
+	<Testimonials testimonials={data.testimonials}/>
 </section>
 
 <style>
@@ -43,7 +31,8 @@
 	}
 
 	.alt-bg {
-		background-color: #fbf7f3;
+		/* background-color: #fbf7f3; */
+		background-color: var(--alternate-color);
 		width: 100%;
 	}
 </style>

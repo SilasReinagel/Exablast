@@ -13,7 +13,7 @@
     <IconInfoElement header="Search Engine Optimization" text="We provide on-page optimization techniques to improve your organic discovery and search rankings."/>
     <IconInfoElement header="Ongoing Support" text="Your website is always growing. Whether you’re adding new features or making improvements we're here to help."/>
   </div>
-  <div class="mt2">
+  <div class="center-vh mt2">
     <a href="/index.html?page=services">Find out more about our services -></a>
   </div>
 </Container>
